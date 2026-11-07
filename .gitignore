@@ -35,4 +35,11 @@ replay_pid*
 .project
 dependency-reduced-pom.xml
 
-.workbuddy
+.workbuddy/
+# Added by mc-plugin-github-automation
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!lib/*.jar
+run/
+server/
